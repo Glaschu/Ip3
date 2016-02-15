@@ -4,12 +4,21 @@ using UnityEngine.UI;
 public class Scores : MonoBehaviour {
 	
 	public float timer = 10f;
-	public GameObject keep;
+	private static Scores keep;
 
 
 	void Awake() {
+		//if we don't have an [_instance] set yet
+		if (!keep) {
+			keep = this;
+		}
+		//otherwise, if we do, kill this thing
+		else {
+			Destroy (this.gameObject);
+		}
+		
 		DontDestroyOnLoad(transform.gameObject);
-		keep = GameObject.Find("Keeper");
+		//keep = GameObject.Find("Keeper");
 		
 	}
 

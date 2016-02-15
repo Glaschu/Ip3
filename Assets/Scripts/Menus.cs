@@ -1,6 +1,10 @@
 ﻿using UnityEngine;
 using System.Collections;
 using UnityEngine.UI;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+
 public class Menus : MonoBehaviour {
 	private Sprite[] textures;
 	public GameObject UpgradeMenu;
@@ -8,24 +12,30 @@ public class Menus : MonoBehaviour {
 	public int buttonClicked =0;
 	public int updateClicked=0;
 	public Button clickedName1,clickedName2,clickedName3;
+	int count =0;
 	// Use this for initialization
 	void Start () {
 		
-		keep = GameObject.Find("Keeper");
+
 	}
 	void Awake(){
-		textures=Resources.LoadAll<Sprite>("Buttons");
+	textures=Resources.LoadAll<Sprite>("Buttons");
+		keep = GameObject.Find("Keeper");
+		if (keep == null) {
+			Debug.LogError("keep Loading Error");
+
+		}
+		}
 	
-	}
+	
 	
 	// Update is called once per frame
 	void Update () {
-		if (Resources.LoadAll<Sprite>("Buttons") != null){
-			Debug.Log("Images is loaded! "); // executes in the editor
-		}else{
-			Debug.LogError("Can't find Images "); // executes in a build
+		if (keep == null) {
+			keep = GameObject.Find("Keeper");
+			count +=1;
+			Debug.LogError(count);
 		}
-
 	}
 
 	public void OnButtonClick(int select){

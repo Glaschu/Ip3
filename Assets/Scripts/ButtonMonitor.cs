@@ -46,10 +46,11 @@ public class ButtonMonitor : MonoBehaviour {
 	}
 	
 	// Update is called once per frame
-	void Update () { 
+	void Update () {
+		//Debug.LogError ("still here");
 		if (Input.GetKeyDown (KeyCode.A)) {
-			TestButtons ();
-			calculate ();
+			Debug.LogError ("still here");
+
 		}
 		if (Input.GetKeyDown(KeyCode.Q))
 			Application.Quit();
