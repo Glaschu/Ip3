@@ -20,7 +20,11 @@ public class Menus : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
+		if (Resources.LoadAll<Sprite>("Buttons") != null){
+			Debug.Log("Images is loaded! "); // executes in the editor
+		}else{
+			Debug.LogError("Can't find Images "); // executes in a build
+		}
 
 	}
 
