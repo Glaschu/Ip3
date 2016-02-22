@@ -12,7 +12,7 @@ public class Menus : MonoBehaviour {
 	public int buttonClicked =0;
 	public int updateClicked=0;
 	public Button clickedName1,clickedName2,clickedName3;
-	int count =0;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -31,11 +31,7 @@ public class Menus : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		if (keep == null) {
-			keep = GameObject.Find("Keeper");
-			count +=1;
-			Debug.LogError(count);
-		}
+
 	}
 
 	public void OnButtonClick(int select){

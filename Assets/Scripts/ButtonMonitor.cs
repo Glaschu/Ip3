@@ -48,10 +48,7 @@ public class ButtonMonitor : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 		//Debug.LogError ("still here");
-		if (Input.GetKeyDown (KeyCode.A)) {
-			Debug.LogError ("still here");
 
-		}
 		if (Input.GetKeyDown(KeyCode.Q))
 			Application.Quit();
 	}
@@ -138,7 +135,6 @@ public class ButtonMonitor : MonoBehaviour {
 				if (i <= 2) {
 					city1Money += UpgradeInfo [ButtonInfo [i, 1], 1];
 				} else if (i <= 5) {
-					Debug.Log ("5");
 					city2Money += UpgradeInfo [ButtonInfo [i, 1], 1];
 				}
 				else if (i <= 8) {
