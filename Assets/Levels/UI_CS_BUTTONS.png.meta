@@ -1,0 +1,532 @@
+fileFormatVersion: 2
+guid: ef24c947d94ee4cb8afd9f59e39f98ee
+timeCreated: 1456788877
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: UI_CS_BUTTONS_0
+    21300002: UI_CS_BUTTONS_1
+    21300004: UI_CS_BUTTONS_2
+    21300006: UI_CS_BUTTONS_3
+    21300008: UI_CS_BUTTONS_4
+    21300010: UI_CS_BUTTONS_5
+    21300012: UI_CS_BUTTONS_6
+    21300014: UI_CS_BUTTONS_7
+    21300016: UI_CS_BUTTONS_8
+    21300018: UI_CS_BUTTONS_9
+    21300020: UI_CS_BUTTONS_10
+    21300022: UI_CS_BUTTONS_11
+    21300024: UI_CS_BUTTONS_12
+    21300026: UI_CS_BUTTONS_13
+    21300028: UI_CS_BUTTONS_14
+    21300030: UI_CS_BUTTONS_15
+    21300032: UI_CS_BUTTONS_16
+    21300034: UI_CS_BUTTONS_17
+    21300036: UI_CS_BUTTONS_18
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: UI_CS_BUTTONS_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 982
+        width: 248
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 103, y: 52.5}
+        - {x: -104, y: 52.5}
+        - {x: -124, y: 39.5}
+        - {x: -124, y: -39.5}
+        - {x: -116, y: -52.5}
+        - {x: 110, y: -52.5}
+        - {x: 113, y: -51.5}
+        - {x: 124, y: -33.5}
+        - {x: 124, y: 41.5}
+    - name: UI_CS_BUTTONS_1
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 980
+        width: 248
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 97, y: 52.5}
+        - {x: -98, y: 52.5}
+        - {x: -121, y: 46.5}
+        - {x: -124, y: 32.5}
+        - {x: -124, y: -39.5}
+        - {x: -116, y: -52.5}
+        - {x: 117, y: -52.5}
+        - {x: 124, y: -50.5}
+        - {x: 124, y: 40.5}
+        - {x: 113, y: 46.5}
+    - name: UI_CS_BUTTONS_2
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 930
+        width: 123
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -37.5, y: 61.5}
+        - {x: -61.5, y: 44.5}
+        - {x: -61.5, y: -39.5}
+        - {x: -48.5, y: -61.5}
+        - {x: 58.5, y: -61.5}
+        - {x: 61.5, y: -60.5}
+        - {x: 61.5, y: 61.5}
+    - name: UI_CS_BUTTONS_3
+      rect:
+        serializedVersion: 2
+        x: 791
+        y: 0
+        width: 304
+        height: 1095
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -4, y: 547.5}
+        - {x: -4, y: -247.5}
+        - {x: -13, y: -247.5}
+        - {x: -14, y: -248.5}
+        - {x: -20, y: -248.5}
+        - {x: -21, y: -249.5}
+        - {x: -26, y: -249.5}
+        - {x: -27, y: -250.5}
+        - {x: -35, y: -251.5}
+        - {x: -39, y: -253.5}
+        - {x: -42, y: -253.5}
+        - {x: -43, y: -254.5}
+        - {x: -48, y: -255.5}
+        - {x: -51, y: -257.5}
+        - {x: -56, y: -258.5}
+        - {x: -65, y: -263.5}
+        - {x: -67, y: -263.5}
+        - {x: -71, y: -266.5}
+        - {x: -77, y: -268.5}
+        - {x: -79, y: -271.5}
+        - {x: -80, y: -271.5}
+        - {x: -83, y: -273.5}
+        - {x: -87, y: -275.5}
+        - {x: -90, y: -278.5}
+        - {x: -94, y: -280.5}
+        - {x: -98, y: -285.5}
+        - {x: -99, y: -285.5}
+        - {x: -114, y: -300.5}
+        - {x: -114, y: -301.5}
+        - {x: -122, y: -309.5}
+        - {x: -124, y: -313.5}
+        - {x: -127, y: -317.5}
+        - {x: -127, y: -318.5}
+        - {x: -131, y: -322.5}
+        - {x: -134, y: -329.5}
+        - {x: -136, y: -332.5}
+        - {x: -136, y: -334.5}
+        - {x: -141, y: -343.5}
+        - {x: -141, y: -345.5}
+        - {x: -143, y: -348.5}
+        - {x: -144, y: -353.5}
+        - {x: -146, y: -356.5}
+        - {x: -146, y: -358.5}
+        - {x: -148, y: -362.5}
+        - {x: -148, y: -365.5}
+        - {x: -150, y: -369.5}
+        - {x: -150, y: -373.5}
+        - {x: -151, y: -374.5}
+        - {x: -151, y: -377.5}
+        - {x: -152, y: -378.5}
+        - {x: -152, y: -547.5}
+        - {x: 152, y: -547.5}
+        - {x: 152, y: 547.5}
+    - name: UI_CS_BUTTONS_4
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 864
+        width: 395
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 197.5, y: 26.5}
+        - {x: 194.5, y: 31.5}
+        - {x: 182.5, y: 43.5}
+        - {x: 175.5, y: 48.5}
+        - {x: 154.5, y: 52.5}
+        - {x: -154.5, y: 52.5}
+        - {x: -177.5, y: 46.5}
+        - {x: -191.5, y: 37.5}
+        - {x: -197.5, y: 29.5}
+        - {x: -197.5, y: -34.5}
+        - {x: -172.5, y: -52.5}
+        - {x: 160.5, y: -52.5}
+        - {x: 179.5, y: -47.5}
+        - {x: 197.5, y: -35.5}
+    - name: UI_CS_BUTTONS_5
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 753
+        width: 123
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -43.5, y: 61.5}
+        - {x: -58.5, y: 40.5}
+        - {x: -61.5, y: 24.5}
+        - {x: -61.5, y: -50.5}
+        - {x: -29.5, y: -61.5}
+        - {x: 43.5, y: -61.5}
+        - {x: 61.5, y: -38.5}
+        - {x: 61.5, y: 54.5}
+        - {x: 41.5, y: 61.5}
+    - name: UI_CS_BUTTONS_6
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 689
+        width: 249
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 6.5, y: 83}
+        - {x: -8.5, y: 83}
+        - {x: -122.5, y: 29}
+        - {x: -124.5, y: 26}
+        - {x: -124.5, y: -24}
+        - {x: -9.5, y: -83}
+        - {x: 8.5, y: -83}
+        - {x: 53.5, y: -63}
+        - {x: 124.5, y: -29}
+        - {x: 124.5, y: 26}
+    - name: UI_CS_BUTTONS_7
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 687
+        width: 250
+        height: 167
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 11, y: 83.5}
+        - {x: -9, y: 83.5}
+        - {x: -49, y: 68.5}
+        - {x: -125, y: 26.5}
+        - {x: -125, y: -22.5}
+        - {x: -124, y: -25.5}
+        - {x: -4, y: -83.5}
+        - {x: 5, y: -83.5}
+        - {x: 118, y: -31.5}
+        - {x: 125, y: -24.5}
+        - {x: 125, y: 23.5}
+    - name: UI_CS_BUTTONS_8
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 572
+        width: 123
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -45.5, y: 61.5}
+        - {x: -61.5, y: 58.5}
+        - {x: -61.5, y: -56.5}
+        - {x: -38.5, y: -61.5}
+        - {x: 34.5, y: -61.5}
+        - {x: 61.5, y: -37.5}
+        - {x: 61.5, y: 40.5}
+        - {x: 53.5, y: 61.5}
+    - name: UI_CS_BUTTONS_9
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 420
+        width: 258
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 129, y: 30}
+        - {x: 125, y: 48}
+        - {x: 104, y: 84}
+        - {x: 83, y: 103}
+        - {x: 67, y: 115}
+        - {x: 34, y: 129}
+        - {x: -32, y: 129}
+        - {x: -69, y: 115}
+        - {x: -103, y: 86}
+        - {x: -124, y: 49}
+        - {x: -129, y: 30}
+        - {x: -129, y: -30}
+        - {x: -124, y: -46}
+        - {x: -104, y: -85}
+        - {x: -68, y: -116}
+        - {x: -31, y: -129}
+        - {x: 32, y: -129}
+        - {x: 70, y: -117}
+        - {x: 114, y: -77}
+        - {x: 129, y: -32}
+    - name: UI_CS_BUTTONS_10
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 419
+        width: 258
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 129, y: 35}
+        - {x: 126, y: 44}
+        - {x: 103, y: 85}
+        - {x: 84, y: 104}
+        - {x: 41, y: 127}
+        - {x: 33, y: 129}
+        - {x: -32, y: 129}
+        - {x: -73, y: 113}
+        - {x: -104, y: 83}
+        - {x: -125, y: 45}
+        - {x: -129, y: 29}
+        - {x: -129, y: -28}
+        - {x: -118, y: -58}
+        - {x: -105, y: -79}
+        - {x: -83, y: -102}
+        - {x: -45, y: -125}
+        - {x: -34, y: -129}
+        - {x: 37, y: -129}
+        - {x: 49, y: -127}
+        - {x: 107, y: -84}
+        - {x: 129, y: -45}
+    - name: UI_CS_BUTTONS_11
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 387
+        width: 123
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48.5, y: 61.5}
+        - {x: -56.5, y: 43.5}
+        - {x: -61.5, y: 26.5}
+        - {x: -61.5, y: -38.5}
+        - {x: -47.5, y: -61.5}
+        - {x: 42.5, y: -61.5}
+        - {x: 61.5, y: -37.5}
+        - {x: 61.5, y: 31.5}
+        - {x: 51.5, y: 61.5}
+    - name: UI_CS_BUTTONS_12
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 296
+        width: 248
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 103, y: 52.5}
+        - {x: -103, y: 52.5}
+        - {x: -117, y: 45.5}
+        - {x: -124, y: 35.5}
+        - {x: -124, y: -39.5}
+        - {x: -115, y: -52.5}
+        - {x: 120, y: -52.5}
+        - {x: 124, y: -50.5}
+        - {x: 124, y: 38.5}
+    - name: UI_CS_BUTTONS_13
+      rect:
+        serializedVersion: 2
+        x: 290
+        y: 293
+        width: 248
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 119, y: 52.5}
+        - {x: -106, y: 52.5}
+        - {x: -114, y: 51.5}
+        - {x: -124, y: 34.5}
+        - {x: -124, y: -34.5}
+        - {x: -122, y: -44.5}
+        - {x: -104, y: -52.5}
+        - {x: 101, y: -52.5}
+        - {x: 113, y: -50.5}
+        - {x: 124, y: -40.5}
+        - {x: 124, y: 34.5}
+    - name: UI_CS_BUTTONS_14
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 170
+        width: 395
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 197.5, y: 21.5}
+        - {x: 194.5, y: 31.5}
+        - {x: 177.5, y: 47.5}
+        - {x: 154.5, y: 52.5}
+        - {x: -156.5, y: 52.5}
+        - {x: -178.5, y: 48.5}
+        - {x: -197.5, y: 29.5}
+        - {x: -197.5, y: -32.5}
+        - {x: -170.5, y: -52.5}
+        - {x: 155.5, y: -52.5}
+        - {x: 164.5, y: -50.5}
+        - {x: 179.5, y: -48.5}
+        - {x: 197.5, y: -27.5}
+    - name: UI_CS_BUTTONS_15
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 29
+        width: 123
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -46.5, y: 62}
+        - {x: -61.5, y: 46}
+        - {x: -61.5, y: -36}
+        - {x: -32.5, y: -62}
+        - {x: 46.5, y: -62}
+        - {x: 61.5, y: -37}
+        - {x: 61.5, y: 56}
+        - {x: 50.5, y: 62}
+    - name: UI_CS_BUTTONS_16
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 30
+        width: 123
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34.5, y: 61.5}
+        - {x: -23.5, y: 61.5}
+        - {x: -45.5, y: 55.5}
+        - {x: -61.5, y: 26.5}
+        - {x: -61.5, y: -29.5}
+        - {x: -41.5, y: -61.5}
+        - {x: 32.5, y: -61.5}
+        - {x: 46.5, y: -57.5}
+        - {x: 61.5, y: -38.5}
+        - {x: 61.5, y: 41.5}
+        - {x: 60.5, y: 47.5}
+    - name: UI_CS_BUTTONS_17
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 32
+        width: 123
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -36.5, y: 62}
+        - {x: -61.5, y: 49}
+        - {x: -61.5, y: -44}
+        - {x: -57.5, y: -62}
+        - {x: 61.5, y: -62}
+        - {x: 61.5, y: 59}
+        - {x: 56.5, y: 62}
+    - name: UI_CS_BUTTONS_18
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 37
+        width: 123
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -44.5, y: 61.5}
+        - {x: -61.5, y: 34.5}
+        - {x: -61.5, y: -61.5}
+        - {x: 47.5, y: -61.5}
+        - {x: 61.5, y: -56.5}
+        - {x: 61.5, y: 37.5}
+        - {x: 37.5, y: 61.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
