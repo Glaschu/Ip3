@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 using System.Collections;
-
 public class LevelSelect : MonoBehaviour {
 
 	// Use this for initialization
@@ -14,7 +15,9 @@ public class LevelSelect : MonoBehaviour {
 	}
 
 	public void LoadLevel(int level){
-	
-		Application.LoadLevel (1);
+		SceneManager.LoadSceneAsync(level, LoadSceneMode.Single);
+
+
 	}
+
 }
