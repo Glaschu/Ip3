@@ -10,13 +10,14 @@ GameObject:
   - 4: {fileID: 432886}
   - 114: {fileID: 11428914}
   - 114: {fileID: 11435832}
+  - 114: {fileID: 11437770}
   m_Layer: 0
   m_Name: Keeper
   m_TagString: Keeper
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &432886
 Transform:
   m_ObjectHideFlags: 1
@@ -41,7 +42,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timer: 10
-  buttons: []
+  Upgradetime: 0
+  hex: 0
+  hexIn: 0
+  researchable: 1
 --- !u!114 &11435832
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -53,6 +57,77 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dae52bc0cce224d0f81e7731e98ab4e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  city1Money: 0
+  city2Money: 0
+  city3Money: 0
+  city4Money: 0
+  city5Money: 0
+  globalMoney: 1000000
+  research: 0
+  UpgradeMoney: 0100000002000000030000000400000005000000060000000700000008000000090000000a0000000b0000000c0000000d0000000e0000000f000000
+  CoalMoney: 0
+  GeoMoney: 0
+  nuclearMoney: 0
+  oilMoney: 0
+  hydroMoney: 0
+  tidalMoney: 0
+  gasMoney: 0
+  windMoney: 0
+  solarMoney: 0
+  farm1Money: 0
+  farm2Money: 0
+  farm3Money: 0
+  CoalPollution: 0
+  GeoPollution: 0
+  nuclearPollution: 0
+  oilPollution: 0
+  hydroPollution: 0
+  tidalPollution: 0
+  gasPollution: 0
+  windPollution: 0
+  solarPollution: 0
+  farm1Pollution: 0
+  farm2Pollution: 0
+  farm3Pollution: 0
+  CoalEnergy: 0
+  GeoEnergy: 0
+  nuclearEnergy: 0
+  oilEnergy: 0
+  hydroEnergy: 0
+  tidalEnergy: 0
+  gasEnergy: 0
+  windEnergy: 0
+  solarEnergy: 0
+  farm1Energy: 0
+  farm2Energy: 0
+  farm3Energy: 0
+  TotalPol: 0
+  TotalEnergy: 0
+  TotalMoney: 0
+--- !u!114 &11437770
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 172052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 07dcecfff2f9c4a90bcdeb58c5edc499, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GeoInfo: 000000000000000000000000000000000000000000000000
+  CoalInfo: 000000000000000000000000000000000000000000000000
+  NuclearInfo: 000000000000000000000000000000000000000000000000
+  OilInfo: 000000000000000000000000000000000000000000000000
+  HydroInfo: 000000000000000000000000000000000000000000000000
+  TidalInfo: 000000000000000000000000000000000000000000000000
+  GasInfo: 000000000000000000000000000000000000000000000000
+  WindInfo: 000000000000000000000000000000000000000000000000
+  SolarInfo: 000000000000000000000000000000000000000000000000
+  FarmsInfo: 000000000000000000000000000000000000000000000000
+  Farms2Info: 000000000000000000000000000000000000000000000000
+  Farms3Info: 000000000000000000000000000000000000000000000000
+  Money: 0
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1

@@ -9,3 +9,11 @@ EditorBuildSettings:
     path: Assets/Levels/HomeScreen.unity
   - enabled: 1
     path: Assets/Levels/City1.unity
+  - enabled: 0
+    path: Assets/testCitys.unity
+  - enabled: 1
+    path: Assets/Levels/TechTree.unity
+  - enabled: 1
+    path: Assets/Levels/City2.unity
+  - enabled: 1
+    path: Assets/Levels/City3.unity
